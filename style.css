@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f7f3;
+    color: #1a24fb;
+    font-family: 'Overpass', Montserrat;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a24fb;
+    color: #f8f7f3;
+    padding: 0.5rem;
+}
+
+.material-icons {
+    font-size: 2rem;
+}
+
+
+h1 {
+    font-weight: 400;
+    font-size: 0.85rem;
+    font-family: 'Montserrat';
+}
+
+main {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 3rem; 
+    margin: 9rem 5rem 0 5rem; 
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+}
+
+.row {
+    display: flex;
+    gap: 1.55rem;
+}
+
+.card {
+    width: 360px;
+    height: 450px;
+    background-color: #f8f7f3;
+    color: #1a24fb;
+    border: 1.5px solid #1a24fb;
+    position: relative;
+    padding: 2rem 1.75rem 3.5rem 1.75rem; 
+}
+
+.number {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 1rem;
+    right: 1rem;
+    font-family: 'Montserrat';
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #1a24fb;
+    width: 2rem;
+    height: 2rem;
+}
+
+.button {
+    position: absolute;
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center; 
+    gap: 3rem;
+    bottom: -15rem;
+    right: -0.5rem; 
+    color: #1a24fb; 
+    width: 360px;
+    height: 450px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 20px 0 20px 0;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 30px 0 40px 0;
+
+}
+
+p {
+    font-weight: bold;
+}
+
+.button > p {
+    font-weight: 300;
+}
